@@ -107,6 +107,30 @@ Say this naturally:
 
 "Interactivity and browser-only logic stay on the client. Secure logic, secrets, and database access stay on the server."
 
+### What is Tailwind CSS?
+
+"Tailwind is a utility-first CSS framework where you compose small styling classes directly in the markup for layout, spacing, typography, colors, and responsive behavior."
+
+### Why do teams use Tailwind?
+
+"Because it speeds up UI work, keeps spacing and layout more consistent, and fits well with component-based React and Next.js development."
+
+### What is Sass or SCSS?
+
+"Sass or SCSS is a CSS preprocessor that adds features like variables, nesting, and mixins to make larger styling codebases easier to organize."
+
+### Sass vs SCSS
+
+"SCSS uses CSS-like syntax with braces and semicolons, while Sass uses indentation-based syntax."
+
+### Tailwind vs SCSS
+
+"Tailwind puts styling composition into utility classes in the markup, while SCSS keeps more styling logic in stylesheet files."
+
+### Safe honesty line if asked about Tailwind or SCSS depth
+
+"My strongest proven styling experience is reusable responsive UI and Figma-to-code implementation, and I can apply that across standard CSS, Tailwind, SCSS, or CSS Modules depending on the team setup."
+
 ## 7. Fast Backend and Database Answers
 
 ### Node.js vs Express.js

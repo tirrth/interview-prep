@@ -793,3 +793,67 @@ Do this uninterrupted:
 12. Tell me about a time you debugged a difficult issue.
 
 If you can answer those 12 smoothly, your interview readiness is much stronger.
+
+## 12. Frontend Styling Mini Round
+
+### Question 89: What is Tailwind CSS?
+
+Strong answer should include:
+
+- utility-first CSS framework
+- small classes composed in markup
+- common in React and Next.js apps
+
+### Question 90: Why do teams use Tailwind?
+
+Strong answer should include:
+
+- faster UI building
+- consistent spacing and layout
+- responsive utilities built in
+
+### Question 91: What is Sass or SCSS?
+
+Strong answer should include:
+
+- CSS preprocessor
+- variables, nesting, mixins
+- useful for larger stylesheet organization
+
+### Question 92: What is the difference between Sass and SCSS?
+
+Strong answer should include:
+
+- SCSS is CSS-like syntax
+- Sass uses indentation syntax
+
+### Question 93: Tailwind vs SCSS, how would you compare them?
+
+Strong answer should include:
+
+- Tailwind utility classes in markup
+- SCSS stylesheet-based organization
+- both solve styling problems in different ways
+
+### Question 94: What if our codebase uses Tailwind and your background is more regular CSS or SCSS?
+
+Strong answer should include:
+
+- frontend fundamentals transfer
+- layout, spacing, responsiveness, accessibility still matter
+- Tailwind mainly changes expression and organization of styles
+
+### Question 95: How does responsive styling usually work in Tailwind?
+
+Strong answer should include:
+
+- breakpoint prefixes like `sm:`, `md:`, `lg:`
+- different utilities applied at different screen sizes
+
+### Question 96: When would you prefer SCSS over Tailwind?
+
+Strong answer should include:
+
+- team prefers stylesheet organization
+- mixins, variables, and nested style structure are helpful
+- not every team wants utility-heavy markup
