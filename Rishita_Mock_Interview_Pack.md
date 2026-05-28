@@ -857,3 +857,51 @@ Strong answer should include:
 - team prefers stylesheet organization
 - mixins, variables, and nested style structure are helpful
 - not every team wants utility-heavy markup
+
+### Question 97: What are CSS Modules?
+
+Strong answer should include:
+
+- locally scoped CSS classes
+- familiar CSS syntax
+- useful for component-based apps
+
+### Question 98: What are styled-components?
+
+Strong answer should include:
+
+- CSS-in-JS approach
+- component-scoped styles in code
+- dynamic theming or prop-driven styling
+
+### Question 99: What is Material UI and when would you use it?
+
+Strong answer should include:
+
+- React component library
+- prebuilt accessible components
+- useful for dashboards and enterprise apps needing fast consistency
+
+### Question 100: What is Bootstrap and when would you use it?
+
+Strong answer should include:
+
+- CSS framework
+- responsive grid and utilities
+- fast layout work when highly custom styling is not the main goal
+
+### Question 101: How would you choose between Tailwind, CSS Modules, styled-components, Material UI, Bootstrap, or SCSS?
+
+Strong answer should include:
+
+- existing codebase and team conventions first
+- product type matters
+- tradeoff between speed, customization, and maintainability
+
+### Question 102: What would you do if you joined a project that already used a styling system you would not personally choose?
+
+Strong answer should include:
+
+- respect consistency first
+- learn the existing system
+- change only if there is a real product or maintenance reason

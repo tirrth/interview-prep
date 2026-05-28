@@ -127,6 +127,30 @@ Say this naturally:
 
 "Tailwind puts styling composition into utility classes in the markup, while SCSS keeps more styling logic in stylesheet files."
 
+### What are CSS Modules?
+
+"CSS Modules are normal CSS files with locally scoped class names so styles do not collide globally."
+
+### What are styled-components?
+
+"styled-components is a CSS-in-JS approach where styles are written with the component and can respond to props and themes more directly."
+
+### What is Material UI?
+
+"Material UI is a React component library with prebuilt components and theming, often useful for dashboard and enterprise-style interfaces."
+
+### What is Bootstrap?
+
+"Bootstrap is a CSS framework with a responsive grid, utilities, and prebuilt styling that helps teams build layouts quickly."
+
+### Best answer for choosing a styling approach
+
+"In a real project I would first respect the existing codebase and team conventions. For a new project, I would choose based on whether the priority is utility-first speed, traditional stylesheet organization, theme-driven component styling, or fast dashboard UI with a component library."
+
+### Safe honesty line for styling tools generally
+
+"My strongest proven styling experience is reusable responsive UI and Figma-to-code implementation, and I can apply that across standard CSS, CSS Modules, Tailwind, SCSS, styled-components, or component libraries depending on the project."
+
 ### Safe honesty line if asked about Tailwind or SCSS depth
 
 "My strongest proven styling experience is reusable responsive UI and Figma-to-code implementation, and I can apply that across standard CSS, Tailwind, SCSS, or CSS Modules depending on the team setup."
