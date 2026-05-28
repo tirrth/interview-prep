@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+  <title id="title">Full-Stack Interview Concept Map</title>
+  <desc id="desc">A visual overview of the main concept families covered in the interview guide, centered on how browser, frontend, backend, database, security, performance, system design, and communication connect.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f5f3ee; }
+      .panel { fill: #fffdf8; stroke: #2e4057; stroke-width: 2.5; rx: 18; ry: 18; }
+      .core { fill: #ffdf91; stroke: #7a5c00; stroke-width: 3; rx: 24; ry: 24; }
+      .resume { fill: #cfe8ff; stroke: #295b8f; stroke-width: 2.5; rx: 18; ry: 18; }
+      .browser { fill: #d9f2d9; stroke: #2f6b2f; stroke-width: 2.5; rx: 18; ry: 18; }
+      .frontend { fill: #ffe6c7; stroke: #9a5a00; stroke-width: 2.5; rx: 18; ry: 18; }
+      .backend { fill: #ffd8d8; stroke: #8f3a3a; stroke-width: 2.5; rx: 18; ry: 18; }
+      .db { fill: #e7dcff; stroke: #654197; stroke-width: 2.5; rx: 18; ry: 18; }
+      .ops { fill: #d9eef4; stroke: #2a6678; stroke-width: 2.5; rx: 18; ry: 18; }
+      .soft { fill: #e8e2d6; stroke: #705d43; stroke-width: 2.5; rx: 18; ry: 18; }
+      .title { font: 700 34px Helvetica, Arial, sans-serif; fill: #1f2933; }
+      .subtitle { font: 500 18px Helvetica, Arial, sans-serif; fill: #46525e; }
+      .boxTitle { font: 700 24px Helvetica, Arial, sans-serif; fill: #1f2933; }
+      .boxText { font: 500 17px Helvetica, Arial, sans-serif; fill: #26323e; }
+      .small { font: 500 15px Helvetica, Arial, sans-serif; fill: #30404f; }
+      .arrow { stroke: #4f5f70; stroke-width: 3.5; fill: none; marker-end: url(#arrowhead); }
+      .thin { stroke: #7c8b99; stroke-width: 2.2; fill: none; marker-end: url(#arrowheadSmall); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#4f5f70" />
+    </marker>
+    <marker id="arrowheadSmall" markerWidth="8" markerHeight="6" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#7c8b99" />
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1400" height="980" />
+
+  <text class="title" x="700" y="56" text-anchor="middle">Full-Stack Interview Concept Map</text>
+  <text class="subtitle" x="700" y="88" text-anchor="middle">Use this to remember the big picture: most questions are really about how these areas connect.</text>
+
+  <rect class="core" x="500" y="360" width="400" height="170" />
+  <text class="boxTitle" x="700" y="410" text-anchor="middle">Interview Core</text>
+  <text class="boxText" x="700" y="448" text-anchor="middle">Definition + Why it matters + How it works</text>
+  <text class="boxText" x="700" y="478" text-anchor="middle">Project example + Tradeoff + Failure mode</text>
+  <text class="small" x="700" y="512" text-anchor="middle">If you can explain a concept from these angles, you can answer many phrasings.</text>
+
+  <rect class="resume" x="80" y="140" width="300" height="150" />
+  <text class="boxTitle" x="230" y="185" text-anchor="middle">Resume Stories</text>
+  <text class="boxText" x="230" y="220" text-anchor="middle">Blackeven</text>
+  <text class="boxText" x="230" y="248" text-anchor="middle">Unibox, Catiena</text>
+  <text class="boxText" x="230" y="276" text-anchor="middle">Seminar Sidekick, QueueWise</text>
+
+  <rect class="browser" x="550" y="130" width="300" height="170" />
+  <text class="boxTitle" x="700" y="175" text-anchor="middle">Browser and Web</text>
+  <text class="boxText" x="700" y="210" text-anchor="middle">DNS, HTTP, HTTPS, CORS</text>
+  <text class="boxText" x="700" y="238" text-anchor="middle">Cookies, storage, caching</text>
+  <text class="boxText" x="700" y="266" text-anchor="middle">Request to render pipeline</text>
+
+  <rect class="frontend" x="1020" y="140" width="300" height="160" />
+  <text class="boxTitle" x="1170" y="185" text-anchor="middle">Frontend</text>
+  <text class="boxText" x="1170" y="220" text-anchor="middle">React state, props, hooks</text>
+  <text class="boxText" x="1170" y="248" text-anchor="middle">Next.js rendering and routing</text>
+  <text class="boxText" x="1170" y="276" text-anchor="middle">Forms, accessibility, UX</text>
+
+  <rect class="backend" x="1020" y="400" width="300" height="170" />
+  <text class="boxTitle" x="1170" y="445" text-anchor="middle">Backend and APIs</text>
+  <text class="boxText" x="1170" y="480" text-anchor="middle">Node, Express, route handlers</text>
+  <text class="boxText" x="1170" y="508" text-anchor="middle">Validation, auth, error handling</text>
+  <text class="boxText" x="1170" y="536" text-anchor="middle">REST, pagination, webhooks</text>
+
+  <rect class="db" x="550" y="660" width="300" height="170" />
+  <text class="boxTitle" x="700" y="705" text-anchor="middle">Database Thinking</text>
+  <text class="boxText" x="700" y="740" text-anchor="middle">PostgreSQL, MongoDB, Prisma</text>
+  <text class="boxText" x="700" y="768" text-anchor="middle">ACID, joins, indexes, schema</text>
+  <text class="boxText" x="700" y="796" text-anchor="middle">Relationships and transactions</text>
+
+  <rect class="ops" x="90" y="640" width="330" height="190" />
+  <text class="boxTitle" x="255" y="685" text-anchor="middle">Performance and Delivery</text>
+  <text class="boxText" x="255" y="720" text-anchor="middle">Caching, CDN, code splitting</text>
+  <text class="boxText" x="255" y="748" text-anchor="middle">CI/CD, env vars, Cloudflare</text>
+  <text class="boxText" x="255" y="776" text-anchor="middle">Testing, debugging, monitoring</text>
+  <text class="boxText" x="255" y="804" text-anchor="middle">Git, teamwork, code review</text>
+
+  <rect class="soft" x="80" y="395" width="300" height="170" />
+  <text class="boxTitle" x="230" y="440" text-anchor="middle">Communication Layer</text>
+  <text class="boxText" x="230" y="475" text-anchor="middle">Clarify the question</text>
+  <text class="boxText" x="230" y="503" text-anchor="middle">Answer simply and honestly</text>
+  <text class="boxText" x="230" y="531" text-anchor="middle">Tie back to your projects</text>
+
+  <path class="arrow" d="M380 215 C460 240, 500 285, 560 360" />
+  <path class="arrow" d="M700 300 L700 360" />
+  <path class="arrow" d="M1020 220 C950 250, 900 295, 840 360" />
+  <path class="arrow" d="M1020 485 L900 465" />
+  <path class="arrow" d="M700 530 L700 660" />
+  <path class="arrow" d="M420 735 C500 690, 555 620, 600 530" />
+  <path class="arrow" d="M380 480 L500 455" />
+
+  <path class="thin" d="M850 220 C925 220, 980 220, 1020 220" />
+  <path class="thin" d="M1170 300 L1170 400" />
+  <path class="thin" d="M1020 540 C930 610, 845 655, 800 680" />
+  <path class="thin" d="M550 740 C470 760, 410 770, 330 770" />
+  <path class="thin" d="M230 395 L230 290" />
+
+  <text class="subtitle" x="700" y="920" text-anchor="middle">Most interview questions are not isolated facts. They are paths through this map.</text>
+</svg>
